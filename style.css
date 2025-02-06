@@ -234,6 +234,7 @@ h2.bttl {
   color: #fff;
   font-size: 44px;
   letter-spacing: 3px;
+  -webkit-text-stroke: 2px #000000;
 }
 .attl {
   color: #fff;
@@ -421,12 +422,12 @@ h2.bttl {
 }
 .crd {
   background-color: #faedc8;
-  border: 1px solid #fff;
-  /* width: 200px; */
-  margin: 26px;
+  /* border: 2px solid black;  */
   padding: 25px;
   border-radius: 6px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); /* Drop shadow */
 }
+
 .dsn {
   opacity: 0;
 }
@@ -584,6 +585,7 @@ h2.bttl {
     color: #fff;
     font-size: 22px;
     letter-spacing: 3px;
+    -webkit-text-stroke: 2px #000000;
   }
   .box {
     margin: 20px 12px;
