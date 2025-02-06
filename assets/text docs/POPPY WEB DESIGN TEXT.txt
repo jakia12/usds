@@ -1,0 +1,9 @@
+Font Name : Rubik Bubbles
+
+H1 - 80px
+
+H2 - 57px
+
+H3 - 40px
+
+H4 - 24px
