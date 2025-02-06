@@ -239,6 +239,7 @@ h2.bttl {
   color: #fff;
   font-size: 60px;
   margin-top: 30px;
+  -webkit-text-stroke: 2px #000000;
 }
 .sPara {
   color: #fff;
@@ -249,7 +250,12 @@ h2.bttl {
 }
 /* new about section */
 .abt_dark {
-  background-color: #000;
+  /* background-color: #000; */
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./assets/images/abt-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 80px 0;
 }
 /* tokenomics section */
@@ -293,6 +299,7 @@ h2.bttl {
 .outTxt {
   text-align: center;
   color: #fff;
+  -webkit-text-stroke: 2px #000000;
 
   font-size: 35px;
 }
@@ -303,14 +310,15 @@ h2.bttl {
 
 .red {
   text-align: center;
-  color: #f01d26;
+  color: #844f11;
+  -webkit-text-stroke: 1px #000000;
 
   font-size: 25px;
 }
 .outline {
   text-align: center;
   color: #fff;
-
+  -webkit-text-stroke: 1px #000000;
   font-size: 25px;
 }
 .poppy_back {
@@ -412,6 +420,7 @@ h2.bttl {
   padding-top: 60px;
 }
 .crd {
+  background-color: #faedc8;
   border: 1px solid #fff;
   /* width: 200px; */
   margin: 26px;
@@ -435,6 +444,7 @@ h2.bttl {
     color: #fff;
     font-size: 53px;
     margin-top: 30px;
+    -webkit-text-stroke: 2px #000000;
   }
   .side_img {
     width: 45px;
@@ -505,6 +515,7 @@ h2.bttl {
   .outTxt {
     text-align: center;
     color: #fff;
+    -webkit-text-stroke: 2px #000000;
 
     font-size: 24px;
   }
