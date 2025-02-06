@@ -220,6 +220,7 @@ h2.bttl {
 }
 .abtm_img {
   width: 500px;
+  margin-right: 5%;
 }
 .abtTxt {
   margin-top: 42px;
@@ -233,14 +234,17 @@ h2.bttl {
 .cnt_txt {
   color: #fff;
   font-size: 44px;
-  letter-spacing: 3px;
   -webkit-text-stroke: 2px #000000;
 }
 .attl {
   color: #fff;
   font-size: 60px;
+  letter-spacing: 6px;
   margin-top: 30px;
   -webkit-text-stroke: 2px #000000;
+}
+.l-space{
+  letter-spacing: 6px;
 }
 .sPara {
   color: #fff;
@@ -623,5 +627,8 @@ h2.bttl {
     height: 3px;
     margin: 0 auto;
     background-color: #000;
+  }
+  .l-space{
+    letter-spacing: 0;
   }
 }
