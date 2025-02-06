@@ -100,6 +100,19 @@ h2.bttl {
   border-radius: 20px;
   box-shadow: 5px 7px 13px #1111118a;
 }
+.join_btn {
+  background-color: #fff;
+  width: 500px;
+  padding: 15px 29px 9px;
+  text-align: center;
+  border: 3px solid #fff;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 5px 7px 13px #1111118a;
+}
 .ban_poppy {
   width: 490px;
 }
@@ -229,10 +242,9 @@ h2.bttl {
 }
 .sPara {
   color: #fff;
-  font-size: 16px;
-
-  max-width: 750px;
-  width: 98%;
+  width: 90%;
+  width: 90%;
+  max-width: 95%;
   margin: 30px auto;
 }
 /* new about section */
@@ -247,9 +259,12 @@ h2.bttl {
   background-size: 85%;
   background-position: 45% 0%;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   padding: 0 0 80px;
 }
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------------- */
+
 .tokn_wrap {
   display: flex;
   align-items: center;
@@ -478,7 +493,8 @@ h2.bttl {
     font-size: 18px;
   }
   .token {
-    background-size: 80%;
+    background-size: 110%;
+    background-position: 50% 22%;
   }
   .token_box {
     max-width: 100%;
