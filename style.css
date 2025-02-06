@@ -242,7 +242,12 @@ h2.bttl {
 }
 /* tokenomics section */
 .token {
-  background-color: #000;
+  background-image: url("./assets/images/token-bg.png");
+  background-color: #844f11;
+  background-size: 85%;
+  background-position: 45% 0%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
   padding: 0 0 80px;
 }
 .tokn_wrap {
@@ -309,7 +314,7 @@ h2.bttl {
 
 .gal_sec,
 .dis_sec {
-  background-color: #000;
+  background-color: #844f11;
   padding: 0px 0 80px;
 }
 
@@ -471,6 +476,9 @@ h2.bttl {
   }
   .ca_txt {
     font-size: 18px;
+  }
+  .token {
+    background-size: 80%;
   }
   .token_box {
     max-width: 100%;
