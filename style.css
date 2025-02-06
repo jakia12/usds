@@ -260,15 +260,43 @@ h2.bttl {
   padding: 80px 0;
 }
 /* tokenomics section */
-.token {
+/* .token {
   background-image: url("./assets/images/token-bg.png");
   background-color: #844f11;
   background-size: 85%;
   background-position: 45% 0%;
   background-repeat: no-repeat;
   padding: 0 0 80px;
-}
+} */
 /* -------------------------------------------------- */
+.token {
+  position: relative; /* Needed for absolute positioning of pseudo-element */
+  background-image: url("./assets/images/token-bg.png");
+  background-color: #844f11;
+  background-size: 85%;
+  background-position: 45% 0%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  padding: 0 0 80px;
+}
+
+.token::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* Covers the entire section */
+  background-image: url("./assets/images/token-bg.png");
+  background-size: 85%;
+  background-position: 45% 0%;
+  background-repeat: no-repeat;
+  filter: invert(1) brightness(1); /* Makes gray text white */
+  z-index: 0; /* Keeps it behind the content */
+  opacity: 1; /* Ensure full visibility */
+}
+
+.token * {
+  position: relative; /* Keeps text and other elements above the filter */
+  z-index: 1;
+}
 
 /* -------------------------------------------------------- */
 
